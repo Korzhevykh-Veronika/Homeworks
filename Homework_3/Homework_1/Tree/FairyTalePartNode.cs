@@ -20,7 +20,6 @@ namespace Homework_1.Tree
             System.Console.WriteLine(Text);
 
             if (Children != null) ShowNext();
-            else ;
         }
 
         private void ShowNext()
