@@ -6,23 +6,37 @@ namespace Homework_1
     class FairyTaleCreator
     {
         private FairyTaleData FairyTaleData;
+        Ending[] Endings;
+        Animal[] Animals;
 
-        public FairyTaleCreator(Ending[] Endings, Animal[] animals)
+        public FairyTaleCreator(Ending[] endings, Animal[] animals)
         {
-            var ending = (Ending)Randomizer.GetRandomElementFromArray(Endings);
-            var animal1 = (Animal)Randomizer.GetRandomElementFromArray(animals);
-            var animal2 = (Animal)Randomizer.GetRandomElementFromArray(animals);
-
-            FairyTaleData = new FairyTaleData(ending, animal1, animal2);
+            this.Endings = endings;
+            this.Animals = animals;
         }
 
         public void CreateFairyTeil()
         {
-            FairyTaleTreeInitializer initializer = new FairyTaleTreeInitializer(FairyTaleData);
+            var data = DefineData();
+            FairyTaleTreeInitializer initializer = new FairyTaleTreeInitializer(data);
 
             var rootNode = initializer.Initialize();
 
-            rootNode.Process();           
+            rootNode.Process();
+        }
+
+        public FairyTaleData DefineData()
+        {
+            ConsoleDecorator decorator = new ConsoleDecorator();
+            System.Console.WriteLine("Придумываем сказку...");
+
+            var ending = (Ending)Randomizer.GetRandomElementFromArray(Endings);
+            var animal1 = (Animal)Randomizer.GetRandomElementFromArray(Animals);
+            var animal2 = (Animal)Randomizer.GetRandomElementFromArray(Animals);
+
+            decorator.Decorate();
+
+            return new FairyTaleData(ending, animal1, animal2);
         }
     }
 }

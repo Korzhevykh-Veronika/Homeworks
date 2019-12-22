@@ -6,9 +6,22 @@ namespace Homework_1
     {
         ConsoleColor[] colors = { ConsoleColor.Red, ConsoleColor.Green, ConsoleColor.Yellow };
 
-        public void DryConsole()
+        delegate void ProcessEnding();
+        event ProcessEnding endFairyTaleEvent;
+
+        public ConsoleDecorator()
         {
-            Console.BackgroundColor = (ConsoleColor)Randomizer.GetRandomElementFromArray(colors);
+            endFairyTaleEvent += DryBackground;
+            endFairyTaleEvent += DryText;
         }
+
+        public void Decorate()
+        {
+            endFairyTaleEvent.Invoke(); 
+        }
+
+        private void DryBackground() => Console.BackgroundColor = Randomizer.GetRandomConsoleColor();
+
+        private void DryText() => Console.ForegroundColor = Randomizer.GetRandomConsoleColor();
     }
 }
