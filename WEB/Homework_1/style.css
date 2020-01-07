@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+*{
+    font-family: 'Arimo','Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 36px ;
+    font-weight: bold;
+    padding-top: 100px;
+
+}
+h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+p{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.our-work{
+    background-color: #de2b24;
+    width: 100%;
+    height: 100%;
+}
+.underline{
+    background-color: white;
+    width: 47px;
+    height: 5px;
+    margin: 15px auto 47px auto;
+}
+.photo{
+    padding: 0 188px 130px 188px;
+}
+.photo div{
+    display: inline-block;
+    width: 255px;
+    height: 255px;
+    vertical-align: top;
+    margin:0 -4px 1px 0;
+}
+.rectangle:hover{
+    outline: red 3px solid;
+}
+.rectangle{
+    background-color:#f35e59 ;
+}
+.rectangle img{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.rectangle h4{
+    font-size: 28px;
+}
+.rectangle p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.rectangle-img img{
+    width: 100%;
+    height: 100%;
+}
+.analysis{
+    background-color: #1287bf;
+    width: 100%;
+    height:100% ;
+    padding-bottom: 115px;
+}
+.check-icons{
+    border: white 2px solid;
+    border-radius: 50%;
+    width: 60px;
+    font-size: 15px;
+    margin: 10px auto 20px auto;
+}
+.triangle i{
+    margin:-30px auto -30px ;
+}
+.cross{
+    margin-left: 660px;
+    border: white 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+/*Форма*/
+.information{
+    background-color: white;
+    border-radius: 5px;
+    width: 685px;
+    height: 450px;
+    margin: -20px auto 0;
+}
+.information p{
+    color: #8a8a8a;
+    font-size: 15px;
+    margin: 0 25px 40px 25px;
+}
+.information input{
+    text-align: left;
+    padding-left: 15px;
+    width: 445px;
+    height: 55px;
+    border-radius: 5px;
+    margin: 3px auto;
+}
+.information input:hover {
+    border: #1287bf 2px inset;
+}
+.information button{
+    display: block;
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px auto 70px;
+}
+.information button:hover {
+    border: #1287bf 2px inset;
+}
+
+.get-in-touch{
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 100%;
+}
+.get-in-touch h3{
+    font-size: 29px ;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.get-in-touch p{
+    font-family: 'OpenSans',sans-serif;
+    font-size: 14px;
+}
+.icons{
+    margin: 30px auto 40px ;
+}
+.links{
+    display: inline-block;
+}
+.links a{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border-radius: 2px;
+    border: #515151 2px solid;
+    margin-left: 10px;
+}
+.links a:hover {
+    border-color: red;
+}
+.links img{
+    display: block;
+    margin: 15px auto;
+}
+.email-form{
+    margin: 30px auto 0;
+    padding-bottom: 85px;
+
+}
+.email-form input{
+    width: 683px;
+    height: 56px;
+    background-color: #515151;
+    text-align: left;
+    padding-left: 15px;
+    border: none;
+    margin: 0 auto 30px;
+}
+.email-form input:hover{
+    border: red 1px solid;
+}
+ .email-form button{
+     display: block;
+     width: 155px;
+     height: 53px;
+     border-radius: 5px;
+     border: #515151 2px solid;
+     background-color: #2a2a2a;
+     font-weight: bold;
+     margin: 0 auto;
+ }
+.email-form button:hover{
+    border-color: red;
+}
+ footer{
+     background-color: #515151;
+     width: 100%;
+     height: 67px;
+ }
+ footer small{
+     font-family: 'OpenSans',sans-serif;
+     font-size: 14px;
+     display: block;
+     padding-top: 30px;
+ }
+
