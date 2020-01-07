@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+*{
+    font-family: 'Arimo','Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 36px ;
+    font-weight: bold;
+    padding-top: 100px;
+
+}
+h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+p{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Helvetica', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-work{
+    background-color: #de2b24;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.underline{
+    background-color: white;
+    width: 47px;
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 47px;
+}
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 188px 130px 188px;
+}
+.photo div{
+    width: 255px;
+    height: 255px;
+    margin:0 -4px 1px 0;
+}
+.rectangle:hover{
+    outline: red 3px solid;
+}
+.rectangle{
+    background-color:#f35e59 ;
+}
+.rectangle img{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.rectangle h4{
+    font-size: 28px;
+}
+.rectangle p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.rectangle-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.analysis{
+    background-color: #1287bf;
+    width: 100%;
+    height:100% ;
+    padding-bottom: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.check-icons{
+    border: white 2px solid;
+    border-radius: 50%;
+    width: 60px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.triangle i{
+    margin-top:-30px;
+    margin-bottom: -30px ;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 685px;
+    height: 450px;
+    margin: -20px auto 0;
+}
+.cross{
+    margin-left: 680px;
+    margin-top: -20px;
+    border: white 1px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+.information p{
+    color: #8a8a8a;
+    font-size: 15px;
+    margin: 0 25px 40px 25px;
+}
+.information input{
+    text-align: left;
+    padding-left: 15px;
+    width: 445px;
+    height: 55px;
+    border-radius: 5px;
+    margin-top: 3px ;
+}
+.information input:hover {
+    border: #1287bf 2px inset;
+}
+.information button{
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.information button:hover {
+    border: #1287bf 2px inset;
+}
+
+.get-in-touch{
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch h3{
+    font-size: 29px ;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.get-in-touch p{
+    font-family: 'OpenSans',sans-serif;
+    font-size: 14px;
+}
+.icons{
+    margin-top: 30px;
+    margin-bottom: 40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    border-radius: 2px;
+    border: #515151 2px solid;
+    margin-left: 10px;
+}
+.links a:hover {
+    border-color: red;
+}
+.links img{
+    display: block;
+    margin: 15px auto;
+}
+.email-form{
+    margin-top: 30px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email-form input{
+    width: 683px;
+    height: 56px;
+    background-color: #515151;
+    text-align: left;
+    padding-left: 15px;
+    border: none;
+    margin-bottom: 30px;
+}
+.email-form input:hover{
+    border: red 1px solid;
+}
+ .email-form button{
+     display: block;
+     width: 155px;
+     height: 53px;
+     border-radius: 5px;
+     border: #515151 2px solid;
+     background-color: #2a2a2a;
+     font-weight: bold;
+ }
+.email-form button:hover{
+    border-color: red;
+}
+ footer{
+     background-color: #515151;
+     width: 100%;
+     height: 67px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ footer small{
+     font-family: 'OpenSans',sans-serif;
+     font-size: 14px;
+ }
+
+
