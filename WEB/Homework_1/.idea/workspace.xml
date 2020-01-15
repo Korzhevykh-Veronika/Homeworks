@@ -25,6 +25,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
@@ -52,6 +53,7 @@
       <workItem from="1578314994691" duration="15018000" />
       <workItem from="1578344608065" duration="346000" />
       <workItem from="1578345120198" duration="25124000" />
+      <workItem from="1579085366715" duration="2171000" />
     </task>
     <servers />
   </component>

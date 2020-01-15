@@ -81,7 +81,7 @@ p{
     margin:-30px auto -30px ;
 }
 .cross{
-    margin-left: 660px;
+    margin-left: 97%;
     border: white 1px solid;
     border-radius: 50%;
     width: 40px;
@@ -90,6 +90,8 @@ p{
     color: white;
     font-weight: 100;
     font-size: 30px;
+    position: absolute;
+    top:-20px;
 }
 /*Форма*/
 .information{
@@ -98,6 +100,9 @@ p{
     width: 685px;
     height: 450px;
     margin: -20px auto 0;
+    position: relative;
+    padding-top: 50px;
+
 }
 .information p{
     color: #8a8a8a;
