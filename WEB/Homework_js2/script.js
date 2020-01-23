@@ -111,7 +111,6 @@ function createNewElements(arr) {
         div.className = "phone";
         document.body.append(div);
 
-        /*div.insertAdjacentHTML('beforeend', '<img src="1851741775.jpg">');*/
         let name = document.createElement('h4');
         name.className = "phone-name";
         name.innerHTML = arr[key].name;
