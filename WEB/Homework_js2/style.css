@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    height: 150px;
+    width:20%;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #de9bae;
+}
+.phone-new-price{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.phone-old-price{
+  text-decoration: line-through red;
+    font-size: 18px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
